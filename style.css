@@ -1,0 +1,97 @@
+#inrLogo{
+    display: block;
+    margin: 2% auto;
+    width: 120px;
+    height: 120px;
+    box-shadow: 0px 0px 7px 3px;
+}
+
+.appName{
+    font-family: 'Libre Baskerville', serif;
+    color: #6d9248;
+    background: black;
+    font-size: xx-large;
+    text-align: inherit;
+    border-radius: 10px;
+    padding: 0.2% 2%;
+    box-shadow: 0px 5px 4px 0px;
+}
+
+.word{
+    background: yellow;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.2% 2%;
+    box-shadow: 0px 5px 4px 0px;
+}
+
+.currFirst{
+    padding: 3px;
+    font-size: larger;
+    font-weight: 800;
+    color: darkmagenta;
+    background: #FFEDEB;
+    border-radius: 5px;
+    display: block;
+    margin: 25px auto 5px;
+    box-shadow: inset 0px 0px 2px 2px;
+}
+
+
+.inCurrFirst{
+    padding: 3px;
+    background: #FFEDEB;
+    border-radius: 5px;
+    display: block;
+    margin: 15px auto 5px;
+    width: 80px;
+    text-align: right;
+}
+
+
+.changeCurr{
+    height: 4rem;
+    width: 4rem;
+    display: block;
+    margin:  auto;
+    position: relative;
+    top: 22%;
+} 
+
+.rate{
+    color: red;
+}
+
+
+.secondDiv{
+    margin-top: 5%;
+}
+
+
+
+
+
+@media screen and (max-width:567px){
+    .appName{
+        font-size: x-large;
+        box-shadow: 0px 2.5px 2px 0px;
+    }
+    #inrLogo{
+        width: 80px;
+        height: 80px;
+        box-shadow: 0px 0px 4px 1.5px;
+    }
+    .changeCurr{
+        top: 35%;
+        width: 2.5rem;
+        height: 2.5rem;    
+    }
+    .secondDiv{
+        margin-top: 15%;
+    }
+
+    #inrLogo{
+        margin-top: 10%;
+    }
+}
+
